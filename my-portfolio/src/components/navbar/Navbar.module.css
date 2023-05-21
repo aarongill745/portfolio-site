@@ -1,0 +1,21 @@
+.navbar {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbarLinks {
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+.myName {
+    color: white;
+    padding: 0px 15px;
+}
