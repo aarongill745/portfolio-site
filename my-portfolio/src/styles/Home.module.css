@@ -1,0 +1,50 @@
+.body {
+    background-color: #222831;
+    height: 100vh;
+    width: 100vw;    
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 0px 100px;
+    max-width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 85px;
+    /* background-color: #393E46; */
+    color: white;
+    height: 100px;
+    border-radius: 5px;
+    max-width: 100%;    
+}
+
+.name {
+    font-weight: bold;
+}
+
+.about p {
+     margin-bottom: 0px;
+}
+
+.hello {
+    color: #00ADB5;
+    font-weight: bold;
+}
+
+.spotlight {
+    display: flex;
+    mix-blend-mode: multiply;
+
+}
+.blinkingCursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

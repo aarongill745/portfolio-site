@@ -1,12 +1,11 @@
 import React from 'react'
-import styles from './Navbar.module.css'
-import { useNavigate, Link } from 'react-router-dom'
+import styles from '../styles/Navbar.module.css'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
-  const navigate = useNavigate()
   return (
     <>
       <nav className={styles.navbar}>
-        <h1 className={styles.myName}>Aaron Gill</h1>
+        <div></div>
         <div>
           <Link to="/about" className={styles.navbarLinks}>About</Link>
           <Link to="/projects" className={styles.navbarLinks}>Projects</Link>
