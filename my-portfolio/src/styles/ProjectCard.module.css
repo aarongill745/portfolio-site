@@ -1,0 +1,32 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #393E46;
+    width: 400px;
+    max-height: 200px;
+    border-radius: 5px;
+    transition: transform 150ms ease;
+}
+
+* {
+    color: white;
+}
+
+.imageContainer {
+    margin: auto;
+    max-width: 400px;
+    height: 100px;
+}
+
+.projectName {
+    color: #00ADB5;
+    font-weight: bold;
+}
+
+.projectInformationContainer {
+    padding: 0px 15px 10px 15px;
+}
+
+.cardContainer:hover {
+    transform: scale(1.05);
+}

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css'
+import ProjectCard from '../components/ProjectCard';
 const Home = () => {
-  const fullText = "As much as I like to say that I'm Batman, I'm just a regular computer science student at UNSW, I promise..";
+  const fullText = "My vivid imagination would lead me to believe that I am Batman, but all I really am is regular computer science student at UNSW, I promise..";
   const [text, setText] = useState('');
 
   useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
             {text === fullText && <span className={styles.blinkingCursor}>.</span>}
           </p>
         </div>
+        <ProjectCard image='THIS IS WHERE THE IMAGE SHOULD BE' projectName='AaronBot' projectInfo='A discord bot written in TypeScript using the discord.js API to create special commands for personal use.'/>
       </div>
     </>
   )
