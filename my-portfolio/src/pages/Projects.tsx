@@ -14,7 +14,6 @@ const Projects = () => {
           projectName='AaronBot' 
           projectInfo='A discord bot written in TypeScript using the discord.js API to create special commands for personal use.'
         />
-
       </div>
     </div>
   )
